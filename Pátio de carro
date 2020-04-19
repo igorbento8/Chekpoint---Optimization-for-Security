@@ -1,0 +1,18 @@
+Placa = ["HSB5555", "BNH8754", "HBG9856","JUI5236","GTF2589","JKL0021","QWE8569","TJI9785","VCX2945","ADG2318","POR8564","LPK8564","FGT3258","RTE9584","JIU2489"]
+Carro = ["Fusion","Corola","Civic","Fusca","Fiesta","Uno","Elba","Astra","Punto","Gol","Up","SantaFé","Range Rover","i30","City"]
+
+tmp = input("Modelo de carro procurado?")
+
+for x in Carro:
+    if x == tmp:
+        print("Modelo encontrado no pátio!")
+
+tmp2 = input("Qual Placa do carro?")
+
+for x in Placa:
+    if x == tmp2:
+        print("Carro encontrado no pátio!")
+        break
+    else:
+        print ("Carro não encontrado!")
+        break
